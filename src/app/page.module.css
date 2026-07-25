@@ -1,0 +1,142 @@
+/* ── Bento color scheme matching projects page ── */
+.card {
+  background: #0d0d1a;
+  border: 0.5px solid #1a1a2a;
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 0;
+  height: 100%;
+}
+
+.card h2 {
+  color: #FF3CAC;
+  font-size: 14px;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.card h1 {
+  color: #FF3CAC;
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.card p {
+  color: #E8E0D0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.profileCard {
+  background-color: #121018;
+  border: 0.5px solid #1a1a2a;
+  border-radius: 8px;
+  color: #8888AA;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+.infoDownload {
+  color: #FFB347;
+}
+
+.iconBox {
+  background: #121018;
+  border: 0.5px solid #1a1a2a;
+}
+
+.dot {
+  background: #FF3CAC;
+}
+
+.techItem p {
+  color: #8888AA;
+  font-size: 11px;
+}
+
+.icon {
+  color: #E8E0D0;
+}
+
+.bentoCta {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #00D4FF;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+
+.bentoCta:hover {
+  color: #FF3CAC;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8888AA;
+  font-size: 12px;
+  transition: color 0.2s;
+}
+
+.socialLink:hover {
+  color: #FF3CAC;
+}
+
+.fillerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  height: 100%;
+  justify-content: center;
+}
+
+.fillerLabel {
+  font-size: 10px;
+  color: #00D4FF;
+  letter-spacing: 0.1em;
+}
+
+.fillerStatus {
+  font-size: 11px;
+  color: #39FF14;
+}
+
+.fillerBars {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fillerBar {
+  height: 3px;
+  background: linear-gradient(90deg, #FF3CAC, #FFB347);
+  border-radius: 2px;
+}
+
+.fillerSub {
+  font-size: 10px;
+  color: #555570;
+  letter-spacing: 0.06em;
+}
+
+/* tighten bento grid padding */
+.bento-grid {
+  padding: 16px;
+  gap: 12px;
+}
+
+.main-content {
+  padding: 12px;
+}
