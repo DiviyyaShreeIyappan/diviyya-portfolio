@@ -58,7 +58,7 @@ const projects = [
     desc: 'Microservices architecture with Kafka event-driven communication, distributed locking to prevent double bookings under contention',
     tech: ['Java', 'Kafka', 'Spring Boot', 'Docker', 'Kubernetes', 'JWT'],
     tags: ['4 microservices', 'lock-confirm-expiry', 'resilience tested'],
-    github: 'https://github.com/Ritika-1/Distributedsystem_group_Project.git',
+    github: 'https://github.com/Ritika-91/Distributedsystem_group_Project.git',
     metrics: [
       { label: 'SERVICES', value: 80 },
       { label: 'RESILIENCE', value: 90 },
