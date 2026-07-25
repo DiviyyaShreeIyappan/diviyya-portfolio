@@ -100,7 +100,7 @@ const projects = [
     desc: 'Detects real-time scheduling conflicts across two independent manager nodes, resolves them via an AI agent using department priority and rolling fairness scores',
     tech: ['Java', 'PostgreSQL', 'Kafka', 'Spring Boot', 'AI agent'],
     tags: ['2 manager nodes', '3-tier unavailability', '30-min escalation'],
-    github: null,
+    github: 'https://github.com/DiviyyaShreeIyappan/shiftsync.git',
     metrics: [
       { label: 'BACKEND', value: 75 },
       { label: 'AI AGENT', value: 50 },
