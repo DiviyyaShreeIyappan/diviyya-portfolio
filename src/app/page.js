@@ -24,9 +24,9 @@ export default function Home() {
     <div className="profile">
       <Image src="/profile-img.jpg" fill alt="Diviyya Shree" className="profileImg"/>
     </div>
-    <button className="infoButton">
-      <Download size={16} className="infoDownload"/> Resume
-    </button>
+    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="infoButton">
+  <Download size={16} className="infoDownload"/> Resume
+</a>
   </div>
   <div className="profileContent">
     <p className="profileCard"><GraduationCap size={14} className="infoDownload"/> Graduate</p>
