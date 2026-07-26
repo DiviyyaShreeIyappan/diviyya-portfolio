@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeroText from './HeroText';
 import { Download, GraduationCap, University, MapPin, Heart, Github, Linkedin, Mail } from "lucide-react";
 import { FaJava, FaReact, FaPython, FaDocker } from "react-icons/fa";
 import { SiSpringboot, SiNextdotjs, SiPostgresql, SiKubernetes } from "react-icons/si";
@@ -37,13 +38,7 @@ export default function Home() {
 </div>
 
       <div className="card hero">
-        <h1 className="typing" style={{ '--delay': '0s' }}>Hi, I'm Diviyya</h1>
-        <p className="typing" style={{ '--delay': '2s' }}>{`const developer = {`}</p>
-        <p className="typing" style={{ '--delay': '4s' }}>{`  name: "Diviyya Shree",`}</p>
-        <p className="typing" style={{ '--delay': '6s' }}>{`  role: "Postgraduate CS Student",`}</p>
-        <p className="typing" style={{ '--delay': '8s' }}>{`  university: "University College Dublin",`}</p>
-        <p className="typing" style={{ '--delay': '10s' }}>{`  focus: ["Java", "Backend", "Distributed Systems"]`}</p>
-        <p className="typing" style={{ '--delay': '12s' }}>{`}`}</p>
+         <HeroText />
       </div>
 
       <div className="card tech float">

@@ -251,8 +251,7 @@ a {
   line-height: 1.8;
 
   animation:
-    type 3.5s steps(60, end) forwards,
-    blink 0.75s step-end infinite;
+    type 3.5s steps(60, end) forwards;
   animation-delay: var(--delay, 0s);
 }
 
@@ -669,3 +668,60 @@ a {
 
 
 
+@keyframes type {
+  from { width: 0; opacity: 0; }
+  to { width: 100%; opacity: 1; }
+}
+.heroText {
+  width: 100%;
+}
+
+.heroTextLine {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+
+  color: #e8e0d0;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.heroTextTitle {
+  margin-bottom: 0.6rem;
+  color: #ff3cac;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.heroTextTyping {
+  width: 0;
+  opacity: 1;
+
+  animation: heroTyping 1.8s steps(45, end) forwards;
+}
+
+.heroTextComplete {
+  width: 100%;
+  opacity: 1;
+}
+
+@keyframes heroTyping {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+.heroText,
+.heroTextLine,
+.heroTextComplete {
+  opacity: 1;
+  transition: none;
+}
+
+.heroTextComplete {
+  width: var(--line-width);
+  animation: none;
+}
